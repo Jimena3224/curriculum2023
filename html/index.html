@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Curriculum vitae</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="/css/estilos.css" />
+  <link rel="icon" type="image/x-icon" href="/img/icons/favicon.png">
+</head>
+
+<body>
+  <!-- Header section -->
+  <header>
+    <!-- Presentacion -->
+    <div class="presentacion">
+      <div><img class="img" src="/img/foto carnet.jpg" alt="img cv">
+      </div>
+      <div class="texto">
+        <h1>Jimena Luna</h1>
+        <h2>Curriculum vitae</h2>
+        <h3>Córdoba Argentina</h3>
+        <h3>31 de marzo 2001</h3>
+        <h3>jimena.luna3224@gmail.com</h3>
+        <img class="icon" src="/img/cv.png" alt="cv">
+      </div>
+    </div>
+    </div>
+  </header>
+
+  <!-- Main section -->
+  <div class="main">
+    <!-- Sobre Mi -->
+    <div class="sobremi">
+      <div><img class="img" src="/img/perfil (3).png" alt="sobre mí">
+      </div>
+      <h2>Sobre mí</h2>
+      <p>Mi nombre es Jimena Luna, soy estudiante de Administración de Empresas y poseo excelentes habilidades de
+        análisis, planificación y trabajo en equipo que he adquirido durante mis estudios universitarios.</p>
+      <p>Actualmente pongo en práctica los conocimientos obtenidos en la carrera en mi emprendimiento personal y con
+        ganas de seguir adquiriendo conocimientos para mi formación como profesional.</p>
+    </div>
+    <!-- Aptitudes -->
+    <div class="aptitudes">
+      <div><img class="img" src="/img/habilidades.png" alt="Conocimientos">
+      </div>
+      <h2>Aptitudes</h2>
+      <ul class="values">
+        <li>Adaptabilidad<span style="width: 65%;"></span></li>
+        <li>Trabajo en Equipo<span style="width: 80%;"></span></li>
+        <li>Creatividad<span style="width: 90%;"></span></li>
+        <li>Empatía<span style="width: 80%;"></span></li>
+        <li>Responsabilidad<span style="width: 95%;"></span></li>
+      </ul>
+    </div>
+    <!-- Experiencia -->
+    <div class="experiencia">
+      <img class="img" src="/img/trabajos.png" alt="Experiencias">
+      <h2>Experiencias</h2>
+      <ul>
+        <li>
+          <h4><strong>Emprendimiento personal Actualmente
+            </strong></h4>
+          <spam class="Tareas">Tareas: Búsqueda de proveedores, creación de tienda online y contenido en redes sociales, control de
+            stock, envíos, cobros, cambios y reposiciones.</spam>
+          </p>
+        </li>
+        <li>
+          <h4><strong>Empresa Familiar: Fábrica de sándwich 2017
+            </strong></h4>
+          <spam class="Tareas"> Elaboración de sándwich, recepción de proveedores, reparto, cobro, limpieza.</spam>
+          </p>
+        </li>
+        <li>
+          <h4><strong>Empresa: Avon 2016
+            </strong></h4>
+          <spam class="Tareas"> Generar ventas por catálogo, realizar pedidos online, cobros, cambios y reposiciones, atención
+            post-venta.</spam> 
+          </p>
+        </li>
+      </ul>
+    </div>
+    <!-- Formacion -->
+    <div class="formacion">
+      <img class="img" src="/img/formacion1.png" alt="sobre mí">
+      <h2>Formación</h2>
+      <div class="formacion">
+        <ul>
+          <li>
+            <h4><strong>Licenciatura de Administración de Empresas</strong></h4>
+            <span class="lugar">Universidad Nacional de Córdoba</span>
+            <span class="fecha">2019 cursando 4to año</span>
+          </li>
+          <li>
+            <h4><strong>Bachiller en Economía y Administración</strong></h4>
+            <span class="lugar">Colegio Secundario General Paz</span>
+            <span class="fecha">2013</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+  <footer>
+    <!-- formulario -->
+  <form action="" class="formulario" id="formulario">
+    <h2 class="formulario">Contáctame</h2>
+    <div class="formulario__grupo" id="grupo__nombre">
+      <label for="nombre" class="formulario__label">Nombre</label>
+      <div class="formulario__grupo_input">
+        <input type="text" class="formulario__input" name="nombre" id="nombre" placeholder="Nombre Apellido">
+        <p class="formulario__input-error">El nombre solamente puede contener letras</p>
+      </div>
+
+
+
+      <form action="" class="formulario" id="formulario">
+        <div class="formulario__grupo" id="grupo__correo">
+          <label for="correo" class="formulario__label">Correo Electrónico</label>
+          <div class="formulario__grupo_input">
+            <input type="email" class="formulario__input" name="correo" id="correo" placeholder="correo@correo.com">
+            <p class="formulario__input-error">El correo solo puede contener letras, numeros, puntos, guiones, guion bajo.</p>
+          </div>
+
+          <form action="" class="formulario" id="formulario">
+            <div class="formulario__grupo" id="grupo__mensaje">
+              <label for="mensaje" class="formulario__label">Mensaje</label>
+              <div class="formulario__grupo_input">
+                <input type="text" class="formulario__input" name="mensaje" id="mensaje" placeholder="Hola me interesa tu curriculum para mi empresa">
+              </div>
+
+              <div class="formulario__grupo formulario__grupo-btn-enviar">
+                <button type="submit" class="formulario__btn">Enviar</button>
+                <p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Formulario enviado exitosamente.</p>
+              </div>
+
+
+    <!-- Redes Sociales -->
+    <div class="redessociales">
+      <h2>Redes Sociales - Contacto</h2>
+      <div>
+        <a href="https://www.google.com/intl/es/gmail/about/"><img src="/img/gmail.png" alt="Email"></a>
+        <a href="https://ar.linkedin.com/"><img src="/img/linkedin.png" alt="LinkedIn"></a>
+        <a href="https://twitter.com/"><img src="/img/tw.png" alt="Twitter"></a>
+        <a href="https://es-la.facebook.com/"><img src="/img/facebook.png" alt="Facebook"></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/Nueva carpeta/funtion.js"></script>
+
+  
+
+
+    </div>
+  </form>
+      </div>
+    </div>
+  </form>
+
+</body>
+
+</html>

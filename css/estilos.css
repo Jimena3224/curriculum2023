@@ -1,0 +1,201 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f5efef;
+}
+
+/**********
+/* Header
+**********/
+
+.presentacion {
+  background-color: #ba5657;
+  display: grid;
+  grid-template-columns: 40% 40%;
+}
+
+.presentacion .img {
+  width: 40%;
+  margin: 5%;
+}
+
+.presentacion .texto {
+  color: #ffff;
+  padding: 20px;
+}
+
+.presentacion .icon {
+  width: 150px;
+  margin: 8px;
+}
+
+/***************
+/* Main section
+***************/
+
+.main {
+  background-color: 
+  #f5efef;
+  display: grid;
+  grid-template-columns: 45% 45%;
+  grid-template-rows: 45% 45%;
+  grid-column-gap: 10%;
+  margin-left: 60px;
+  margin-top: 50px;
+} 
+
+
+/* Sobre Mi / Aptitudes */
+
+.aptitudes .values {
+  padding: 0px;
+}
+
+.aptitudes .values li {
+  margin-bottom: 21px;
+  position: relative;
+  list-style: none;
+  font: 400 14px;
+}
+
+.aptitudes .values li:after {
+		background: #e1e1e1;
+		bottom: -4px;
+		content: ' ';
+		display: block;
+		height: 5px;
+		position: absolute;
+		width: 100%;
+	}
+
+.aptitudes .values li span {
+  background: #ba5657;
+  bottom: -4px;
+  content: ' ';
+  display: block;
+  height: 5px;
+  left: 0;
+  position: absolute;
+  width: inherit;
+  z-index: 1;
+}
+
+.grid_8 ul {
+  padding: 15px;
+}
+
+.grid_8 ul li {
+  font: 400 15px;
+  margin-bottom: 3px;
+  list-style: none;
+}
+
+
+/* Experiencia / Formacion */
+h4{
+  color: #7f8e8e
+}
+
+.main img {
+  width: 90px;
+  margin: 5px;
+}
+
+
+/**************
+/* Footer 
+***************/
+
+footer {
+  margin-top: 10%;
+}
+
+/* Formulario de Contacto */
+.formulario__label{
+  display: block;
+  font-weight: 700;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 19px;
+  display: flex;
+  width: 100%;
+}
+
+
+.formulario__input-error{
+  font-size: 12px;
+  margin-bottom: 0px;
+  display: none;
+}
+
+
+.formulario__input-error-activo{
+  display: block;
+}
+
+
+
+.formulario__grupo-input{
+  position: relative;
+}
+
+.formulario__input{
+  width: 100%;
+  background: floralwhite;
+  border: 3px solid transparent;
+  border-radius: 3px;
+  height: 45px;
+  line-height: 45px;
+  padding: 0 40px 0 10px;
+}
+
+.formulario__grupo-btn-enviar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formulario__btn{
+  height: 45px;
+  line-height: 45px;
+  width: 30%;
+  background: #ba5657;
+  color: #f5efef;
+  font-weight: bold;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.formulario__mensaje-exito{
+  font-size: 14px;
+  color: #7f8e8e;
+  display: none;
+}
+
+
+.formulario__mensaje-exito-activado{
+  display: block;
+}
+
+.formulario__validacion-estado{
+  opacity: 0;
+}
+
+.formulario__grupo-correcto .formulario__validacion-estado{
+  color:aquamarine;
+  opacity: 1;
+}
+
+.formulario__grupo-incorrecto .formulario__label{
+  color:#bb2929;
+}
+
+.formulario__grupo-incorrecto .formulario__validacion-estado{
+  color:#bb2929;
+  opacity: 1;
+}
+
+.formulario__grupo-incorrecto .formulario__input{
+  border: 3px solid #bb2929;
+
+}
